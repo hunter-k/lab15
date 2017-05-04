@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<h1>Enter Mad Libs</h1>
+<div ng-controller="form">
+
+<input type="text" placeholder="Enter an Animal" ng-model="madLib.animal"><br>
+<input type="text" placeholder="Enter an Adjective" ng-model="madLib.adjective"><br>
+<button type="button" ng-click="submitted(madLib)">Add</button>
+
+</div>
+</html>
